@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/backimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backimage"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/welcome_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
+        android:text="Select Your Fav Flower :"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="196dp"
+        android:text="Rose"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backimg" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="196dp"
+        android:text="Lily"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="@id/btn1"
+        app:layout_constraintTop_toBottomOf="@id/backimg" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="56dp"
+        android:text="Tulip"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn1" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="56dp"
+        android:text="Lotus"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="@id/btn1"
+        app:layout_constraintTop_toBottomOf="@id/btn2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
