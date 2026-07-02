@@ -22,11 +22,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eccb44c0-8d06-44d3-a1d4-96569a3e363c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_Dialog/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Dialog/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_Dialog/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Dialog/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
